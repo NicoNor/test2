@@ -1,0 +1,53 @@
+body {
+  font-family: 'Indie Flower', cursive;
+  font-size: 3em;
+  background: url("../images/paper.jpg") no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+span {
+  color: #FF8000;
+}
+
+input {
+  border: .3em solid #00a0b0;
+  max-width: 75%;
+  font-size: .6em;
+  color: #ff7373;
+  padding: .2em .4em;
+}
+
+#add {
+  background: #FF8000;
+  border-bottom: 5px solid #d06a03;
+  padding: 1em;
+  border-radius: .7em;
+  font-size: .4em;
+  font-family: 'Pacifico';
+}
+
+#add, #escape {
+  border: none;
+  position: relative;
+  bottom: .5em;
+  border-radius: .7em;
+  color: #fff;
+}
+
+#add:active, #escape:active {
+  transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+  border-bottom: 1px solid;
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+}
+
+#escape {
+  background: #cc0000;
+  border-bottom: 5px solid #7f0000;
+  padding: .1em .3em;
+  border-radius: .7em;
+  font-size: .5em;
+  font-family: 'Indie Flower';
+}
